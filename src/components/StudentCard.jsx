@@ -9,7 +9,10 @@ function StudentCard({student}) {
                 <p>{student.bio}</p>
             </div>
             <div className="grades">
-            <Grade grades = {student.scores}/>
+                {student.scores.map((score, i) => {
+
+                    return <Grade key = {i} grades = {score}/> 
+                })}
         </div>
         </div>
     </div>

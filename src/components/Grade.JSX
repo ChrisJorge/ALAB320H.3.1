@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Grade({scores}) {
+function Grade({grades}) {
   return (
-    <div>scores[0]</div>
+    <div className='GradeCard'>
+        <p className='score'>{grades.score}</p>
+    </div>
   )
 }
 

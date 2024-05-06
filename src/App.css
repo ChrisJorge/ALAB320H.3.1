@@ -42,3 +42,21 @@
   display: flex;
   border: solid black 3px;
 }
+
+.bio{
+  width: 45%;
+  margin-right: 5%;
+}
+
+.grades{
+  width: 45%;
+}
+
+.GradeCard{
+  border: solid blue 3px;
+  padding: 25px;
+}
+
+.score{
+  background-color: green;
+}
