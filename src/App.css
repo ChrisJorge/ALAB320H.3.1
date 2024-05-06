@@ -48,6 +48,9 @@
   margin-right: 5%;
 }
 
+.text{
+  font-weight: bold;
+}
 .grades{
   width: 45%;
 }
@@ -65,6 +68,6 @@
   background-color: yellow;
 }
 
-.bio{
-  font-weight: bold;
+.date{
+  color: red;
 }

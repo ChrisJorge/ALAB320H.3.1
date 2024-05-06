@@ -6,7 +6,7 @@ function StudentCard({student}) {
         <h1 className="Name">{student.name}</h1>
         <div className="container">
             <div className="bio">
-                <p>{student.bio}</p>
+                <p className='text'>{student.bio}</p>
             </div>
             <div className="grades">
                 {student.scores.map((score, i) => {
