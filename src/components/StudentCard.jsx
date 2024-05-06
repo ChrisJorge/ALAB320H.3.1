@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Grade from './Grade.jsx'
 function StudentCard({student}) {
   return (
     <div>
@@ -8,9 +8,9 @@ function StudentCard({student}) {
             <div className="bio">
                 <p>{student.bio}</p>
             </div>
+            <div className="grades">
+            <Grade grades = {student.scores}/>
         </div>
-        <div className="grades">
-
         </div>
     </div>
   )
